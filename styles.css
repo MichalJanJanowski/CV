@@ -1,4 +1,322 @@
-.box {
-  border: 1px solid grey;
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1123px;
+  width: 794px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #042f4b;
+}
+
+p {
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+hr {
+  width: 96%;
+  border: 1px solid #ed1250;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #042f4b;
+  color: #fffcf2;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header i {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+header h1 {
+  font-size: 40px;
+  margin: 15px 0 10px 0;
+}
+
+#hLeft {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#experience h2 {
+  margin: 10px 0 0 10px;
+}
+
+.jobBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+}
+
+.jobBox .jobTitle {
+  margin-left: 10px;
+}
+
+.jobBox .jobTitle p:first-of-type {
+  color: #ed1250;
+  font-weight: 500;
+  margin: 1px 0 0 0;
+}
+
+.jobBox .jobTitle p:nth-of-type(2) {
+  margin: 1px 0 0 0;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.jobBox .jobDescription {
+  margin: 5px 0 0 10px;
+}
+
+.jobBox .jobDescription span {
+  font-weight: 500;
+}
+
+.jobBox .techStack {
+  width: 35%;
+  margin-right: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.jobBox .techStack p {
+  font-weight: 500;
+}
+
+.jobBox .techStack div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.jobBox .techStack div img {
+  margin: 5px;
+}
+
+.jobBox .desc {
+  width: 65%;
+}
+
+#education h2 {
+  margin: 10px 0 0 10px;
+}
+
+.eduBox {
+  margin: 10px 0 0 10px;
+}
+
+.eduBox p:first-of-type {
+  font-style: italic;
+  font-weight: 500;
+}
+
+.eduBox span {
+  font-weight: 500;
+  color: #ed1250;
+}
+
+.eduBox div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.eduBox div p {
+  margin-right: 10px;
+}
+
+#additional h2 {
+  margin: 10px 0 0 10px;
+}
+
+#addBox ul {
+  margin: 0 0 15px 0;
+  padding-left: 30px;
+}
+
+.hLeft_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 0 10px 0;
+}
+
+.hLeft_text div {
+  width: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hLeft_text p {
+  margin-left: 10px;
+}
+
+#body {
+  border-radius: 0 10px 0 0;
+  background-color: #fffcf2;
+}
+
+#left {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.techStack img {
+  width: 30px;
+  height: 30px;
+}
+
+#right {
+  width: 30%;
+  background-color: #042f4b;
+  color: #fffcf2;
+}
+
+#right hr {
+  width: 91%;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+#pic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#pic div {
+  margin: 15px 0 10px 0;
+  width: 70%;
+  border-radius: 10px;
+}
+
+#pic div::after {
+  -webkit-box-shadow: inset 3px 3px 10px 0 #000000;
+          box-shadow: inset 3px 3px 10px 0 #000000;
+  content: '';
+  display: block;
+  height: 218.420px;
+  position: absolute;
+  top: 15px;
+  width: 167.732px;
+  border-radius: 10px;
+}
+
+#pic img {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+#bio {
+  margin: 0 10px 0 10px;
+  font-size: 15px;
+}
+
+#hardSkills {
+  margin: 10px 10px 0 10px;
+}
+
+#hardSkills hr {
+  width: 100%;
+  margin-top: 5px;
+}
+
+#softSkills {
+  margin: 10px 10px 0 10px;
+}
+
+#softSkills hr {
+  width: 100%;
+  margin-top: 5px;
+}
+
+#softSkills ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+#languages {
+  margin: 10px 10px 0 10px;
+}
+
+#languages hr {
+  width: 100%;
+  margin-top: 5px;
+}
+
+#languages #languagesContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#hobbies {
+  margin: 10px 10px 0 10px;
+}
+
+#hobbies hr {
+  width: 100%;
+  margin-top: 5px;
+}
+
+#hobbies ul {
+  margin: 0;
+  padding-left: 20px;
 }
 /*# sourceMappingURL=styles.css.map */
